@@ -1,6 +1,8 @@
 package testMod
 
-Test(){
+import "fmt"
+
+func Test() {
 	fmt.Println("Test called")
 	return
 }
